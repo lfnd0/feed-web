@@ -1,9 +1,9 @@
 export function Post(props) {
-    return (
-        <div>
-            <strong>{props.auth}</strong>
+  return (
+    <div>
+      <strong>{props.auth}</strong>
 
-            <p>{props.content}</p>
-        </div>
-    )
+      <p>{props.content}</p>
+    </div>
+  )
 }
