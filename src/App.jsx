@@ -19,7 +19,6 @@ export function App() {
           <Post />
         </main>
       </div>
-
     </div>
   )
 }
