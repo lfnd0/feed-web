@@ -1,6 +1,5 @@
 import { ThumbsUp, Trash } from 'phosphor-react'
 import { Avatar } from './Avatar'
-
 import styles from './Comment.module.css'
 
 export function Comment() {
@@ -13,7 +12,12 @@ export function Comment() {
           <header>
             <div className={styles.authorAndTime}>
               <strong>Diego Fernandes</strong>
-              <time title='24 de outubro de 2022 às 07:12h' dateTime='2022-10-24'>Cerca de 1h atrás</time>
+              <time
+                title='14 de fevereiro de 2024 às 08:23h'
+                dateTime='2022-02-14 08:23:56'
+              >
+                Cerca de 1h atrás
+              </time>
             </div>
 
             <button title='Remover comentário'>

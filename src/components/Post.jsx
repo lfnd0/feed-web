@@ -12,11 +12,16 @@ export function Post() {
 
           <div className={styles.authorInfo}>
             <strong>Luiz Fernando</strong>
-            <span>Back-End developer</span>
+            <span>Full-Stack Developer</span>
           </div>
         </div>
 
-        <time title='12 de fevereiro de 2024 às 21:19h' dateTime='2022-02-12 21:19:32'>Publicado há 1h</time>
+        <time
+          title='12 de fevereiro de 2024 às 21:19h'
+          dateTime='2022-02-12 21:19:32'
+        >
+          Publicado há 1h
+        </time>
       </header>
 
       <div className={styles.content}>
