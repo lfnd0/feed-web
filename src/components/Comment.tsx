@@ -1,7 +1,7 @@
 import { ThumbsUp, Trash } from 'phosphor-react'
 import { Avatar } from './Avatar'
-import styles from './Comment.module.css'
 import { useState } from 'react'
+import styles from './Comment.module.css'
 
 interface CommentProps {
   content: string
@@ -23,7 +23,12 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src='https://github.com/diego3g.png' alt=''/>
+      <Avatar
+        hasBorder={false}
+        src='https://github.com/diego3g.png'
+        alt='Avatar do perfil'
+        title='Avatar'
+      />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
